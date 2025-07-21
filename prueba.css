@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(230, 229, 229, 0.274);
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgba(230, 229, 229, 0.274);
+    flex-wrap: wrap; /* Permite que se acomode si no cabe */
+    gap: 10px;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    border-radius: 8px;
+    gap: 20px;
+    flex-wrap: wrap; /* Ajuste en pantallas pequeñas */
+}
+
+.navbar .nav-derecha span {
+    margin-left: 20px;
+}
+
+.hero-banner {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+   background-color: rgba(250, 148, 208, 0.425);
+  padding: 40px ;
+  color: rgb(5, 5, 5);
+}
+
+.hero-text h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.hero-image img {
+    max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.CARTA {
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 1 250px;
+    min-width: 250px;
+    aspect-ratio: 16/9;
+}
+
+.carro1 {
+    background-image: url(IMAGE/tesla_r.jfif);
+}
+
+.carro2 {
+    background-image: url(IMAGE/tesla4.jpg);
+}
+
+.carro3 {
+    background-image: url(IMAGE/tesla5.jpg);
+}
+
+.carro4 {
+    background-image: url(IMAGE/tesla_r2.jpg);
+}
+
+.info {
+    display: flex;
+    flex: 1 1 250px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor-c {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.contenedor-mapa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.mapa {
+    
+    width: 55%;
+}
+
+.botones {
+     width: 40%;
+}
+
+iframe {
+    width: 100%;
+   
+    border: 0;
+}
+
+.contenedor-mapa button {
+    width: 80%;
+  padding: 40px;
+  margin: 40px;
+  background-color: rgba(250, 148, 208, 0.425);
+  color: rgb(8, 8, 8);
+  border-radius: 10px
+}
+
+
+ 
+
+    
+
